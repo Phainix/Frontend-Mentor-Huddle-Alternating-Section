@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:500:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/responsive.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Poppins:500:700" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Frontend Mentor | Huddle landing page with alternating sections</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -98,25 +98,46 @@
         </div>
         
 
-        <div class="d-flex justify-content-center get-started flex-column align-items-center">
+        <div class="d-flex justify-content-center get-started flex-column align-items-center build">
             <h1 class="heading text-center text-dark-cyan">Ready To Build Your Community?</h1>
             <button type="button" class="bg-pink btn-rounded btn btn-lg text-white shadow no-border">Get Started For Free</button>
         </div>
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-        vestibulum a, ultrices quis sem.
-
-        Phone: +1-543-123-4567
-        example@huddle.com
-
-        Newsletter
-        To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-        send you spam or pass on your email address
-
-        Subscribe
     </div>
 
-    <footer>
+    <footer class="text-white">
+        <div class="footer-container bg-dark-cyan">
+        
+            <div class="footer-desc">
+                <div>
+                    <div class="footer-logo">
+                        <img src="images/logo-white.svg" alt="">
+                    </div>
+
+                    <p class="footer-about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+                    vestibulum a, ultrices quis sem.</p>
+
+                    <div class="d-flex align-items-center"><img class="footer-icon" src="./images/icon-phone.svg"/>Phone: +1-543-123-4567</div>
+                    <div class="d-flex align-items-center"><img class="footer-icon" src="./images/icon-email.svg"/>example@huddle.com</div>
+                    <ul class="footer-icons">
+                        <li><i class="fa fa-facebook-square"></i></li>
+                        <li><i class="fa fa-instagram"></i></li>
+                        <li><i class="fa fa-twitter-square"></i></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-newsletter">
+                <h3 class="text-normal heading">NEWSLETTER</h3>
+                <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+                send you spam or pass on your email address</p>
+
+                <form class="footer-form" action="" method="get" accept-charset="utf-8">
+                    <input type="text" name="" value="" placeholder="" class="form-input">
+                    <button type="submit" class="btn bg-pink text-white no-border">Subscribe</button>
+                </form>
+            </div>
+        </div>
         <p class="attribution">
             This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
         </p>
